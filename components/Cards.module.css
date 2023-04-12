@@ -179,7 +179,7 @@
   }
 
   .cards__item__info {
-    padding: 20px 10px 10px;
+    padding: 10px 10px 10px;
   }
 
   .topper {
@@ -212,12 +212,11 @@
 
   .cards__item__data {
     font-size: small;
+    padding: 5px;
   }
 
   .cards__item__data__img {
     height: 30px;
     width: 30px;
-    border-radius: 10px;
-    margin-bottom: 20px;
   }
 }
