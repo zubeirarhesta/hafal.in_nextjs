@@ -14,7 +14,7 @@ function CardItem(props) {
           >
             <Image
               className={styles.cards__item__img}
-              alt="Travel Pic"
+              alt="Course"
               src={props.src}
             />
           </figure>
@@ -25,7 +25,7 @@ function CardItem(props) {
             <div className={styles.cards__item__data__profile}>
               <Image
                 className={styles.cards__item__data__img}
-                alt="Travel Pic"
+                alt="Ustadz Pic"
                 src={props.src2}
               />
               <p>{props.teacher}</p>

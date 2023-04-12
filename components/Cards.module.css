@@ -132,6 +132,7 @@
   justify-content: space-between;
   padding: 10px;
   align-items: center;
+  font-size: medium;
 }
 
 .cards__item__data p {
@@ -142,8 +143,6 @@
   display: flex;
   flex-flow: row;
   align-items: center;
-
-  font-size: medium;
 }
 
 .cards__item__data__profile p {
@@ -194,5 +193,23 @@
 
   .right li {
     margin: 0px 5px;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .cards__item__data {
+    flex-flow: column;
+    font-size: small;
+  }
+
+  .cards__item__data__img {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
   }
 }

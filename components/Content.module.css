@@ -52,13 +52,20 @@
     padding: 2rem 0rem;
   }
 
+  .content .left {
+    width: 80%;
+    margin-right: 0;
+  }
+
   .content .right video {
-    height: 400px;
+    /* height: 400px;
     width: 400px;
     width: 100%;
     max-width: 400px;
     height: 100%;
     max-height: 400px;
+    margin: 0px 0px 20px; */
+    height: 180px;
     margin: 0px 0px 20px;
   }
 }

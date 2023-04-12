@@ -40,7 +40,7 @@ export default function Home() {
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
               label="30"
               path="/courses"
-              teacher="hanifah"
+              teacher="ujang"
               price="30k"
             />
             <CardItem
