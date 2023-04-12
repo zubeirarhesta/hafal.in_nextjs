@@ -211,7 +211,6 @@
   }
 
   .cards__item__data {
-    flex-flow: column;
     font-size: small;
   }
 
