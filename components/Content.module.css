@@ -1,0 +1,64 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 15rem;
+  background: #fff;
+}
+
+.content .left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #252e48;
+
+  margin-right: 1rem;
+}
+
+.content .left h3 {
+  font-size: 2.5rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.content .left h6 {
+  font-size: 1.3rem;
+  padding: 1rem;
+  font-weight: 400;
+  padding-bottom: 0;
+}
+
+.content .left p {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #266da3;
+}
+
+.content .right video {
+  width: auto;
+  max-width: 100%;
+  height: 250px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    flex-direction: column-reverse;
+    padding: 2rem 0rem;
+  }
+
+  .content .right video {
+    height: 400px;
+    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    margin: 0px 0px 20px;
+  }
+}
