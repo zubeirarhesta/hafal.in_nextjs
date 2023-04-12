@@ -125,9 +125,10 @@
   }
 
   .detail .one {
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .detail .two {

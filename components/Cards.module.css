@@ -170,9 +170,18 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .cards {
+    padding: 2rem;
+  }
+
   .cards__item {
     margin-bottom: 2rem;
   }
+
+  .cards__item__info {
+    padding: 20px 10px 10px;
+  }
+
   .topper {
     align-items: center;
     justify-content: center;
