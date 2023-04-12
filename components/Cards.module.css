@@ -116,7 +116,7 @@
 }
 
 .cards__item__info {
-  padding: 20px 30px 10px;
+  padding: 20px 20px 10px;
 }
 
 .cards__item__text {
@@ -130,7 +130,7 @@
   height: 100%;
   width: 100%;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 20px 20px;
   align-items: center;
   font-size: medium;
 }
@@ -212,7 +212,7 @@
 
   .cards__item__data {
     font-size: small;
-    padding: 5px;
+    padding: 0px 10px 10px;
   }
 
   .cards__item__data__img {
